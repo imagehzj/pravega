@@ -2,7 +2,7 @@ FROM ttbb/base:jdk11
 
 WORKDIR /opt/sh
 
-ARG version=0.9.1
+ARG version=0.10.1
 
 RUN wget https://github.com/pravega/pravega/releases/download/v$version/pravega-$version.tgz  && \
 mkdir -p /opt/sh/pravega && \
